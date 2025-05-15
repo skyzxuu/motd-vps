@@ -20,7 +20,7 @@ cat > "$MOTD_FILE" << 'EOF'
 #!/bin/bash
 clear
 echo "======================================" | lolcat
-figlet -f slant "Welcome!" | lolcat
+figlet -f slant "skyzxu" | lolcat
 echo "======================================" | lolcat
 echo "Hostname : $(hostname)" | lolcat
 echo "Date     : $(date)" | lolcat
