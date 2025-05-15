@@ -20,9 +20,10 @@ cat > "$MOTD_FILE" << 'EOF'
 #!/bin/bash
 clear
 echo "======================================" | lolcat
-figlet -f slant "skyzxu" | lolcat
+figlet -f slant "Welcome!" | lolcat
 echo "======================================" | lolcat
 echo "Hostname : $(hostname)" | lolcat
+echo "Server owner : skyzxu" | lolcat
 echo "Date     : $(date)" | lolcat
 echo "Uptime   : $(uptime -p)" | lolcat
 echo "Users    : $(who | wc -l) Logged In" | lolcat
